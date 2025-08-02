@@ -20,12 +20,6 @@ const songs = [
         artist: 'Yuna (ft. Usher)',
     },
     {
-        path: 'Glory.mp3',
-        displayName: 'Glory',
-        cover: 'glory.jpg',
-        artist: 'Yuna',
-    },
-    {
         path: 'Macchiato.mp3',
         displayName: 'Macchiato',
         cover: 'macchiato.jpg',
@@ -44,64 +38,16 @@ const songs = [
         artist: 'Rosé',
     },
     {
-        path: 'dance all night.mp3',
-        displayName: 'dance all night',
-        cover: 'danceallnight.jpg',
-        artist: 'Rosé',
-    },
-    {
-        path: 'drinks or coffee.mp3',
-        displayName: 'drinks or coffee',
-        cover: 'drinksorcoffee.jpg',
-        artist: 'Rosé',
-    },
-    {
-        path: 'stay a little longer.mp3',
-        displayName: 'stay a little longer',
-        cover: 'stayalittlelonger.jpg',
-        artist: 'Rosé',
-    },
-    {
-        path: '3am.mp3',
-        displayName: '3am',
-        cover: '3am.jpg',
-        artist: 'Rosé',
-    },
-    {
         path: 'Messy.mp3',
         displayName: 'Messy',
         cover: 'messy.png',
         artist: 'Rosé',
     },
     {
-        path: 'Gone.mp3',
-        displayName: 'Gone',
-        cover: 'gone.png',
-        artist: 'Rosé',
-    },
-    {
-        path: 'On My Mind.mp3',
-        displayName: 'On My Mind',
-        cover: 'onmymind.png',
-        artist: 'Alex Warren (ft. Rosé)',
-    },
-    {
-        path: 'twilight zone.mp3',
-        displayName: 'twilight zone',
-        cover: 'twilightzone.png',
-        artist: 'Ariana Grande',
-    },
-    {
         path: 'warm.mp3',
         displayName: 'warm',
         cover: 'warm.png',
         artist: 'Ariana Grande',
-    },
-    {
-        path: 'THIS IS FOR.mp3',
-        displayName: 'THIS IS FOR',
-        cover: 'THISISFOR.jpg',
-        artist: 'TWICE',
     }
 ];
 
