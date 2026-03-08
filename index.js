@@ -68,8 +68,8 @@ const songs = [
         artist: 'Rosé',
     },
     {
-        path: 'AVOCADO (feat.Gliiico).mp3',
-        displayName: 'AVOCADO (feat.Gliiico)',
+        path: 'AVOCADO (feat. Gliiico).mp3',
+        displayName: 'AVOCADO (feat. Gliiico)',
         cover: 'AVOCADO.jpg',
         artist: 'Chaeyoung, Gliiico',
     },
@@ -264,6 +264,7 @@ playerProgress.addEventListener('click', setProgressBar);
 
 
 loadMusic(songs[musicIndex]);
+
 
 
 
