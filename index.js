@@ -98,8 +98,8 @@ const songs = [
         artist: 'Rosé',
     },
     {
-        path: 'SHOOT(Firecracker).mp3',
-        displayName: 'SHOOT(Firecracker)',
+        path: 'SHOOT (Firecracker).mp3',
+        displayName: 'SHOOT (Firecracker)',
         cover: 'CHAEYOUNG.jpg',
         artist: 'Chaeyoung',
     },
@@ -174,3 +174,4 @@ playerProgress.addEventListener('click', setProgressBar);
 
 
 loadMusic(songs[musicIndex]);
+
