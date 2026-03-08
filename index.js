@@ -32,6 +32,12 @@ const songs = [
         artist: 'TWICE',
     },
     {
+        path: 'I GOT YOU (Feat. Lauv).mp3',
+        displayName: 'I GOT YOU (Feat. Lauv)',
+        cover: 'IGY.jpg',
+        artist: 'TWICE, Lauv',
+    },
+    {
         path: 'number one girl.mp3',
         displayName: 'number one girl',
         cover: 'number1girl.jpg',
@@ -65,7 +71,7 @@ const songs = [
         path: 'AVOCADO (feat.Gliiico).mp3',
         displayName: 'AVOCADO (feat.Gliiico)',
         cover: 'CHAEYOUNG.jpg',
-        artist: 'Chaeyoung',
+        artist: 'Chaeyoung, Gliiico',
     },
     {
         path: 'we cant be friends (wait for your love).mp3',
@@ -139,6 +145,48 @@ const songs = [
         cover: 'CHAEYOUNG.jpg',
         artist: 'Chaeyoung',
     },
+    {
+        path: 'On My Mind.mp3',
+        displayName: 'On My Mind',
+        cover: 'Rosé and Alex.jpg',
+        artist: 'Alex Warren, Rosé',
+    },
+    {
+        path: 'BF.mp3',
+        displayName: 'BF',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
+    {
+        path: 'gameboy.mp3',
+        displayName: 'gameboy',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'DOWNPOUR (feat.Gliiico).mp3',
+        displayName: 'DOWNPOUR (feat.Gliiico)',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung, Gliiico',
+    },
+    {
+        path: 'Gone.mp3',
+        displayName: 'Gone',
+        cover: 'ROSE.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'RIBBONS (feat. SUMIN & Jibin).mp3',
+        displayName: 'RIBBONS (feat. SUMIN & Jibin)',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung, SUMIN, Jibin',
+    },
+    {
+        path: 'I GOT YOU.mp3',
+        displayName: 'I GOT YOU',
+        cover: 'IGY.jpg',
+        artist: 'TWICE',
+    }
 ];
 
 let musicIndex = 0;
@@ -210,5 +258,6 @@ playerProgress.addEventListener('click', setProgressBar);
 
 
 loadMusic(songs[musicIndex]);
+
 
 
