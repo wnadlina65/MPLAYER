@@ -70,7 +70,7 @@ const songs = [
     {
         path: 'AVOCADO (feat.Gliiico).mp3',
         displayName: 'AVOCADO (feat.Gliiico)',
-        cover: 'CHAEYOUNG.jpg',
+        cover: 'AVOCADO.jpg',
         artist: 'Chaeyoung, Gliiico',
     },
     {
@@ -106,7 +106,7 @@ const songs = [
     {
         path: 'SHOOT (Firecracker).mp3',
         displayName: 'SHOOT (Firecracker)',
-        cover: 'CHAEYOUNG.jpg',
+        cover: 'lil fantasy.png',
         artist: 'Chaeyoung',
     },
     {
@@ -124,7 +124,7 @@ const songs = [
     {
         path: 'My Guitar.mp3',
         displayName: 'My Guitar',
-        cover: 'CHAEYOUNG.jpg',
+        cover: 'my guitar.jpg',
         artist: 'Chaeyoung',
     },
     {
@@ -186,6 +186,12 @@ const songs = [
         displayName: 'I GOT YOU',
         cover: 'IGY.jpg',
         artist: 'TWICE',
+    },
+    {
+        path: 'BAND-AID.mp3',
+        displayName: 'BAND-AID',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
     }
 ];
 
@@ -258,6 +264,7 @@ playerProgress.addEventListener('click', setProgressBar);
 
 
 loadMusic(songs[musicIndex]);
+
 
 
 
