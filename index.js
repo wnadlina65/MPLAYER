@@ -62,8 +62,8 @@ const songs = [
         artist: 'Rosé',
     },
     {
-        path: 'AVOCADO(feat.Gliiico).mp3',
-        displayName: 'AVOCADO(feat.Gliiico)',
+        path: 'AVOCADO (feat.Gliiico).mp3',
+        displayName: 'AVOCADO (feat.Gliiico)',
         cover: 'CHAEYOUNG.jpg',
         artist: 'Chaeyoung',
     },
@@ -100,6 +100,42 @@ const songs = [
     {
         path: 'SHOOT (Firecracker).mp3',
         displayName: 'SHOOT (Firecracker)',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
+    {
+        path: 'Hampstead.mp3',
+        displayName: 'Hampstead',
+        cover: 'warm.png',
+        artist: 'Ariana Grande',
+    },
+    {
+        path: 'two years.mp3',
+        displayName: 'two years',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'My Guitar.mp3',
+        displayName: 'My Guitar',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
+    {
+        path: 'intro (end of the world).mp3',
+        displayName: 'intro (end of the world)',
+        cover: 'warm.png',
+        artist: 'Ariana Grande',
+    },
+    {
+        path: 'stay a little longer.mp3',
+        displayName: 'stay a little longer',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'SHADOW PUPPETS.mp3',
+        displayName: 'SHADOW PUPPETS',
         cover: 'CHAEYOUNG.jpg',
         artist: 'Chaeyoung',
     },
@@ -174,4 +210,5 @@ playerProgress.addEventListener('click', setProgressBar);
 
 
 loadMusic(songs[musicIndex]);
+
 
