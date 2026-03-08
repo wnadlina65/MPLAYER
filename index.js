@@ -48,7 +48,61 @@ const songs = [
         displayName: 'warm',
         cover: 'warm.png',
         artist: 'Ariana Grande',
-    }
+    },
+    {
+        path: 'twilight zone.mp3',
+        displayName: 'twilight zone',
+        cover: 'warm.png',
+        artist: 'Ariana Grande',
+    },
+    {
+        path: 'dance all night.mp3',
+        displayName: 'dance all night',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'AVOCADO(feat.Gliiico).mp3',
+        displayName: 'AVOCADO(feat.Gliiico)',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
+    {
+        path: 'we cant be friends (wait for your love).mp3',
+        displayName: 'we cant be friends (wait for your love)',
+        cover: 'warm.png',
+        artist: 'Ariana Grande',
+    },
+    {
+        path: '3am.mp3',
+        displayName: '3am',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'GIRL.mp3',
+        displayName: 'GIRL',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
+    {
+        path: 'supernatural.mp3',
+        displayName: 'supernatural',
+        cover: 'warm.png',
+        artist: 'Ariana Grande',
+    },
+    {
+        path: 'drinks or coffee.mp3',
+        displayName: 'drinks or coffee',
+        cover: 'number1girl.jpg',
+        artist: 'Rosé',
+    },
+    {
+        path: 'SHOOT(Firecracker).mp3',
+        displayName: 'SHOOT(Firecracker)',
+        cover: 'CHAEYOUNG.jpg',
+        artist: 'Chaeyoung',
+    },
 ];
 
 let musicIndex = 0;
@@ -117,5 +171,6 @@ nextBtn.addEventListener('click', () => changeMusic(1));
 music.addEventListener('ended', () => changeMusic(1));
 music.addEventListener('timeupdate', updateProgressBar);
 playerProgress.addEventListener('click', setProgressBar);
+
 
 loadMusic(songs[musicIndex]);
